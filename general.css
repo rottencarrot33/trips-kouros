@@ -27,11 +27,11 @@ body {
 
 p,
 li {
-    font-size: 20px;
+    font-size: 0.8rem;
 }
 
 ul h3 {
-    font-size: 40px;
+    font-size: 2rem;
 }
 
 li {
@@ -40,6 +40,7 @@ li {
 
 h1 {
     font-family: 'Nunito Sans', sans-serif;
+    font-size: 2.3rem !important;
 }
 
 html {
@@ -52,13 +53,13 @@ html {
 
 .back-to-slides {
     position: absolute;
-    top: 11px;
-    left: 5px;
+    top: 19px;
+    left: 19px;
     z-index: 10000 !important;
 }
 
 .back-to-slides img {
-    width: 60px;
+    width: 45px;
 }
 
 main {
@@ -73,6 +74,7 @@ main {
 
 .text h3 {
     font-weight: 500;
+    font-size: 1.5rem;
 }
 
 .img img {
@@ -85,14 +87,22 @@ main {
 
 .price {
     position: absolute;
-    bottom: 20px;
+    bottom: 120px;
     right: 32%;
     text-align: right;
 }
 
+.price span, .price2 span {
+    font-size: 2.2rem;
+}
+
+.price .display-6, .price2 .display-6 {
+    font-size: 1.8rem;
+}
+
 .price2 {
     position: absolute;
-    bottom: 20px;
+    bottom: 120px;
     right: 6%;
     text-align: right;
 }
@@ -100,7 +110,7 @@ main {
 .img {
     position: relative;
     width: 60%;
-    height: 80vh;
+    height: 70vh;
     overflow: hidden;
 }
 
@@ -129,16 +139,18 @@ main {
 }
 
 .days {
-    font-size: 1.8rem;
+    font-size: 1.1rem;
 }
 
 .days-in {
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 ul {
     padding-right: 10px;
 }
+
+
 
 @media (min-width:1300px) {
 
@@ -163,7 +175,7 @@ ul {
     }
 }
 
-@media (min-width:500px) and (max-width:899px) {
+@media (min-width:500px) and (max-width:699px) {
 
     .price,
     .price2 {
