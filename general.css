@@ -87,7 +87,7 @@ main {
 
 .price {
     position: absolute;
-    bottom: 80px;
+    bottom: 30px;
     right: 32%;
     text-align: right;
 }
@@ -102,7 +102,7 @@ main {
 
 .price2 {
     position: absolute;
-    bottom: 80px;
+    bottom: 30px;
     right: 6%;
     text-align: right;
 }
