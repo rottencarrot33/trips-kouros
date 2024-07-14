@@ -95,14 +95,14 @@ main {
 
 .price {
     position: absolute;
-    bottom: -5px;
+    bottom: 0px;
     right: 32%;
     text-align: right;
 }
 
 .price2 {
     position: absolute;
-    bottom: -5px;
+    bottom: 0px;
     right: 6%;
     text-align: right;
 }
