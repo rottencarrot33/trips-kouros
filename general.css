@@ -96,14 +96,14 @@ main {
 
 .price {
     position: absolute;
-    bottom: 5px;
+    bottom: 20px;
     right: 32%;
     text-align: right;
 }
 
 .price2 {
     position: absolute;
-    bottom: 5px;
+    bottom: 20px;
     right: 6%;
     text-align: right;
 }
@@ -111,7 +111,7 @@ main {
 .img {
     position: relative;
     width: 60%;
-    height: 80vh;
+    height: 60vh;
     overflow: hidden;
 }
 
