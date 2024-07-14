@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
-    overflow-x: hidden !important;
+    overflow: hidden !important;
 }
 
 @media (min-width:500px) {
@@ -96,14 +96,14 @@ main {
 
 .price {
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     right: 32%;
     text-align: right;
 }
 
 .price2 {
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     right: 6%;
     text-align: right;
 }
