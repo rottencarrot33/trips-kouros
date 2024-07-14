@@ -9,6 +9,8 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
+
+
 /* Carousel */
 #rotating-carousel.carousel {
     height: 100vh;
@@ -45,6 +47,8 @@ body {
     font-size: 22px;
 }
 
+
+
 @media (max-width:450px) {
     img {
         object-fit: cover !important;
@@ -68,18 +72,18 @@ body {
         font-size: 2rem;
     }
 
-    .sail-img,
-    .thessaloniki-img,
-    .kerkini-img,
-    .kassandra-img {
+    .santorini-img {
         object-position: 72% 50%;
+    }
+
+    .scuba-img {
+        object-position: 32% 50%;
     }
 
     .toggle-button {
         left: 48%;
     }
 }
-
 
 
 
