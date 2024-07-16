@@ -111,7 +111,7 @@ main {
 .img {
     position: relative;
     width: 60%;
-    height: 60vh;
+    height: 80vh;
     overflow: hidden;
 }
 
@@ -157,7 +157,11 @@ ul {
 
     .price,
     .price2 {
-        bottom: 0;
+        bottom: 120px;
+    }
+
+    .price span, .price2 span {
+        font-size: 3.5rem;
     }
 
     p,
